@@ -1,0 +1,25 @@
+.tra {
+  transition: 0.5s;
+}
+
+.tra:hover {
+  transition: 0.5s;
+  background-color: #f49e09;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.tra2 {
+  transition: 0.5s;
+}
+
+.tra2:hover {
+  transition: 0.5s;
+  background-color: #f49e09;
+  color: #841e2b;
+  border-radius: 10px;
+}
+
+.backnav {
+  background-color: #841e2b;
+}
