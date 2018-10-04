@@ -16,10 +16,15 @@
 .tra2:hover {
   transition: 0.5s;
   background-color: #f49e09;
-  color: #841e2b;
+  color: #fff;
   border-radius: 10px;
 }
 
 .backnav {
   background-color: #841e2b;
+}
+
+.img {
+  width: 3rem;
+  height: auto;
 }
