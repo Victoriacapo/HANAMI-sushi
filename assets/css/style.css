@@ -20,6 +20,15 @@
   border-radius: 10px;
 }
 
+#drop {
+  transition:0.3s;
+}
+
+#drop:hover, #drop:focus {
+  background-color:#f49e09;
+  color:#fff;
+}
+
 .backnav {
   background-color: #841e2b;
 }
