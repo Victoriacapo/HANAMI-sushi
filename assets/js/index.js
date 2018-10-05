@@ -5,15 +5,6 @@ $(document).ready(function() {
   var $ctFormulas = $('#content-formulas')
   var $ctSmallFormulas = $('#content-sm-formulas')
   var $ctEat = $('#content-eat')
-  $('#dropDown').click(function() {
-    if($('#contentDrop').css('display') === 'block') {
-      $('#contentDrop').slideUp()
-      document.getElementById('dropDownIcon').className = "fas fa-caret-down"
-    } else {
-      $('#contentDrop').slideDown()
-      document.getElementById('dropDownIcon').className = "fas fa-caret-up"
-    }
-  })
 
   $formulas.click(function() {
     if($ctFormulas.css('display') === "block") {
