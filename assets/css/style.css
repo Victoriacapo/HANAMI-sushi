@@ -34,6 +34,32 @@
 }
 
 .img {
-  width: 3rem;
+  width: 2rem;
   height: auto;
+}
+
+.nav-item {
+  padding-left:20px;
+  padding-right:20px;
+}
+
+.dnone {
+  display: none;
+}
+
+@media all and (min-width:1070px) {
+  .links {
+    display:block;
+  }
+}
+
+#linktripadvisor {
+  position: absolute;
+  right: 30px;
+  vertical-align: middle;
+}
+
+#linkfacebook {
+  position: absolute;
+  right: 100px;
 }
