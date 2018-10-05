@@ -7,9 +7,6 @@
   <link rel="stylesheet" type="text/css" href="./assets/import/bootstrap/lux/css/bootstrap.min.css" />
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous" />
   <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
-  <link href="https://fonts.googleapis.com/css?family=Oswald:700" rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css?family=Lobster+Two:400i|Oswald:700" rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css?family=Lobster+Two:400i|Oswald:700|Playfair+Display+SC" rel="stylesheet" />
 </head>
 <body>
   <nav class="navbar navbar-expand-lg navbar-dark backnav">
@@ -23,7 +20,7 @@
           <a class="nav-link tra" href="#">Acceuil<span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item active dropdown tra">
-          <a id="dropDown" class="nav-link" href="#" id="navbarDropdownMenuLink">Carte <i id="dropDownIcon" class="fas fa-caret-down"></i></a>
+          <a id="dropDown" class="nav-link" href="#card" id="navbarDropdownMenuLink">Carte <i id="dropDownIcon" class="fas fa-caret-down"></i></a>
           <div id="contentDrop" class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
             <a id="drop" class="dropdown-item" href="#">Formule</a>
             <a id="drop" class="dropdown-item" href="#">Mini formule</a>
@@ -54,35 +51,11 @@
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img class="img-fluid" src="./assets/img/sushi-789820_1920.jpg" alt="presentation" style="width:100%;height:100%;">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>PRESENTATION</h5>
-          <p>Le Maitre sushi Hanami fort de ses 10 années d'apprentissage,
-            ayant fait ses armes auprès des plus grand Maître Japonais. Il souhaitait faire découvrir ce met d'exception qu'est le sushi.
-            il a donc crée son restaurant dans sa ville d'adoption, <span>le Havre</span>.
-          </p>
-        </div>
-      </div>
-
-      <div class="carousel-item">
-        <img class="img-fluid" src="./assets/img/sushi-970346_1280.jpg" alt="SAVOIR FAIRE">
-        <div class="carousel-caption d-none d-md-block SAVOIR">
-          <h5>SAVOIR FAIRE</h5>
-          <p>
-            Le Maitre sushi Hanami, met ses compétences au service de votre palais!
-          </p>
-        </div>
-      </div>
-
-      <div class="carousel-item">
         <img class="img-fluid" src="./assets/img/fish-3517643_1280.jpg" alt="PRODUIT FRAIS">
         <div class="carousel-caption d-none d-md-block">
-          <h5>PRODUIT FRAIS</h5>
-          <p>
-            Le chef travaille avec des produit frais et collabore avec les acteurs locaux, afin de
-            respecter la saisonnalité, et une meilleure traçabilité des aliments.
-            Et vous proposé des sushis de qualité.
-          </p>
+          <div class="carousel-text-background">
+            <h1 class="white-text mt-2">HANAMI SUSHI</h1>
+          </div>
         </div>
       </div>
       <a class="carousel-control-prev" href="#carousel1" role="button" data-slide="prev">
@@ -107,14 +80,14 @@
 
     <div class="Garantie mb-5 mt-5">
       <p id="text">
-        Préparation <br />
+        Préparation
         à la commande
       </p>
     </div>
 
     <div class="Garantie mb-5 mt-5">
       <p id="text">
-        En livraison<br/>
+        En livraison
         et à Emporter
       </p>
     </div>
@@ -145,274 +118,282 @@
       </div>
     </div>
   </div>
-  <div class="container mt-5">
-    <div class="row">
-      <div class="col-sm-12 col-md-4">
-        <div class="card border-newprimary mt-5 mb-5">
-          <div class="card-header">Liste des menus</div>
-          <div class="card-body">
-            <div class="card border-newprimary">
-              <div id="formulas" class="card-header card-header-hoverable"><i id="formulasIcon" class="fas fa-caret-down"></i> Formules</div>
-              <div id="content-formulas" class="card-body dnone">
-                <div class="list-group">
-                  <p id="formula1" class="list-group-item list-group-item-action">Formule 1</p>
-                  <p id="formula2" class="list-group-item list-group-item-action">Formule 2</p>
-                  <p id="formula3" class="list-group-item list-group-item-action">Formule 3</p>
-                  <p id="formula4" class="list-group-item list-group-item-action">Formule 4</p>
-                  <p id="formula5" class="list-group-item list-group-item-action">Formule 5</p>
-                  <p id="formula6" class="list-group-item list-group-item-action">Formule 6</p>
+  <div id="card">
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-sm-12 col-md-4">
+          <div class="card border-newprimary mt-5 mb-5">
+            <div class="card-header">Liste des menus</div>
+            <div class="card-body">
+              <div class="card border-newprimary">
+                <div id="formulas" class="card-header card-header-hoverable"><i id="formulasIcon" class="fas fa-caret-down"></i> Formules</div>
+                <div id="content-formulas" class="card-body dnone">
+                  <div class="list-group">
+                    <p id="formula1" class="list-group-item list-group-item-action">Formule 1</p>
+                    <p id="formula2" class="list-group-item list-group-item-action">Formule 2</p>
+                    <p id="formula3" class="list-group-item list-group-item-action">Formule 3</p>
+                    <p id="formula4" class="list-group-item list-group-item-action">Formule 4</p>
+                    <p id="formula5" class="list-group-item list-group-item-action">Formule 5</p>
+                    <p id="formula6" class="list-group-item list-group-item-action">Formule 6</p>
+                  </div>
                 </div>
-              </div>
-              <div id="sm-formulas" class="card-header card-header-hoverable"><i id="smFormulasIcon" class="fas fa-caret-down"></i> Petites formules</div>
-              <div id="content-sm-formulas" class="card-body dnone">
-                <div class="list-group">
-                  <p id="smFormula1" class="list-group-item list-group-item-action">Petite formule 1</p>
-                  <p id="smFormula2" class="list-group-item list-group-item-action">Petite formule 2</p>
-                  <p id="smFormula3" class="list-group-item list-group-item-action">Petite formule 3</p>
-                  <p id="smFormula4" class="list-group-item list-group-item-action">Petite formule 4</p>
-                  <p id="smFormula5" class="list-group-item list-group-item-action">Petite formule 5</p>
-                  <p id="smFormula6" class="list-group-item list-group-item-action">Petite formule 6</p>
+                <div id="sm-formulas" class="card-header card-header-hoverable"><i id="smFormulasIcon" class="fas fa-caret-down"></i> Petites formules</div>
+                <div id="content-sm-formulas" class="card-body dnone">
+                  <div class="list-group">
+                    <p id="smFormula1" class="list-group-item list-group-item-action">Petite formule 1</p>
+                    <p id="smFormula2" class="list-group-item list-group-item-action">Petite formule 2</p>
+                    <p id="smFormula3" class="list-group-item list-group-item-action">Petite formule 3</p>
+                    <p id="smFormula4" class="list-group-item list-group-item-action">Petite formule 4</p>
+                    <p id="smFormula5" class="list-group-item list-group-item-action">Petite formule 5</p>
+                    <p id="smFormula6" class="list-group-item list-group-item-action">Petite formule 6</p>
+                  </div>
                 </div>
-              </div>
-              <div id="eat" class="card-header card-header-hoverable"><i id="eatIcon" class="fas fa-caret-down"></i> Plats</div>
-              <div id="content-eat" class="card-body dnone">
-                <div class="list-group">
-                  <p id="eat1" class="list-group-item list-group-item-action">Plat 1</p>
-                  <p id="eat2" class="list-group-item list-group-item-action">Plat 2</p>
-                  <p id="eat3" class="list-group-item list-group-item-action">Plat 3</p>
-                  <p id="eat4" class="list-group-item list-group-item-action">Plat 4</p>
-                  <p id="eat5" class="list-group-item list-group-item-action">Plat 5</p>
-                  <p id="eat6" class="list-group-item list-group-item-action">Plat 6</p>
+                <div id="eat" class="card-header card-header-hoverable"><i id="eatIcon" class="fas fa-caret-down"></i> Plats</div>
+                <div id="content-eat" class="card-body dnone">
+                  <div class="list-group">
+                    <p id="eat1" class="list-group-item list-group-item-action">Plat 1</p>
+                    <p id="eat2" class="list-group-item list-group-item-action">Plat 2</p>
+                    <p id="eat3" class="list-group-item list-group-item-action">Plat 3</p>
+                    <p id="eat4" class="list-group-item list-group-item-action">Plat 4</p>
+                    <p id="eat5" class="list-group-item list-group-item-action">Plat 5</p>
+                    <p id="eat6" class="list-group-item list-group-item-action">Plat 6</p>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-      <div class="col-sm-12 col-md-8">
-        <div class="card border-newprimary mt-5 mb-5">
-          <div class="card-header">Informations</div>
-          <div class="card-body">
-            <div id="menu">
-              <p>Merci de choisir une formule ou un plat pour pouvoir avoir les informations sur cette page.</p>
-            </div>
-            <div id="ct-formula1" class="dnone">
-              <div class="row">
-                <div class="col-sm-12 col-md-6 mb-5">
-                  <div class="card">
-                    <img class="card-img-top" src="./assets/img/sushi-2853382.jpg" alt="Card image cap">
-                    <div class="card-body">
-                      <h5 class="card-title">Produit 1</h5>
-                      <p class="card-text">Petit commentaire sur le produit 1</p>
-                      <a href="#" class="btn btn-newprimary align-center-content" data-toggle="modal" data-target="#modalFormula">Go somewhere</a>
-                    </div>
+        <div class="col-sm-12 col-md-8">
+          <div class="card border-newprimary mt-5 mb-5">
+            <div class="card-header">Informations</div>
+            <div class="card-body">
+              <div id="menu">
+                <div class="card text-center">
+                  <div class="card-header">PROMOTION</div>
+                  <div class="card-body">
+                    Sur une formule, une soupe mizo et une salade de chou offerte! Sur une petite formule, une soupe mizo OU une salade de chou offerte!</p>
                   </div>
                 </div>
-                <div class="col-sm-12 col-md-6 mb-5">
-                  <div class="card">
-                    <img class="card-img-top" src="./assets/img/sushi-2853382.jpg" alt="Card image cap">
-                    <div class="card-body">
-                      <h5 class="card-title">Produit 1</h5>
-                      <p class="card-text">Petit commentaire sur le produit 1</p>
-                      <a href="#" class="btn btn-newprimary align-center-content">Go somewhere</a>
+                <p>Merci de choisir une formule ou un plat pour pouvoir avoir les informations sur cette page.</p>
+              </div>
+              <div id="ct-formula1" class="dnone">
+                <div class="row">
+                  <div class="col-sm-12 col-md-6 mb-5">
+                    <div class="card">
+                      <img class="card-img-top" src="./assets/img/sushi-2853382.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">Produit 1</h5>
+                        <p class="card-text">Petit commentaire sur le produit 1</p>
+                        <a href="#" class="btn btn-newprimary align-center-content" data-toggle="modal" data-target="#modalFormula">Go somewhere</a>
+                      </div>
                     </div>
                   </div>
-                </div>
-                <div class="col-sm-12 col-md-6 mb-5">
-                  <div class="card">
-                    <img class="card-img-top" src="./assets/img/sushi-2853382.jpg" alt="Card image cap">
-                    <div class="card-body">
-                      <h5 class="card-title">Produit 1</h5>
-                      <p class="card-text">Petit commentaire sur le produit 1</p>
-                      <a href="#" class="btn btn-newprimary align-center-content">Go somewhere</a>
+                  <div class="col-sm-12 col-md-6 mb-5">
+                    <div class="card">
+                      <img class="card-img-top" src="./assets/img/sushi-2853382.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">Produit 1</h5>
+                        <p class="card-text">Petit commentaire sur le produit 1</p>
+                        <a href="#" class="btn btn-newprimary align-center-content">Go somewhere</a>
+                      </div>
                     </div>
                   </div>
-                </div>
-                <div class="col-sm-12 col-md-6 mb-5">
-                  <div class="card">
-                    <img class="card-img-top" src="./assets/img/sushi-2853382.jpg" alt="Card image cap">
-                    <div class="card-body">
-                      <h5 class="card-title">Produit 1</h5>
-                      <p class="card-text">Petit commentaire sur le produit 1</p>
-                      <a href="#" class="btn btn-newprimary align-center-content">Go somewhere</a>
+                  <div class="col-sm-12 col-md-6 mb-5">
+                    <div class="card">
+                      <img class="card-img-top" src="./assets/img/sushi-2853382.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">Produit 1</h5>
+                        <p class="card-text">Petit commentaire sur le produit 1</p>
+                        <a href="#" class="btn btn-newprimary align-center-content">Go somewhere</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-md-6 mb-5">
+                    <div class="card">
+                      <img class="card-img-top" src="./assets/img/sushi-2853382.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">Produit 1</h5>
+                        <p class="card-text">Petit commentaire sur le produit 1</p>
+                        <a href="#" class="btn btn-newprimary align-center-content">Go somewhere</a>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
-            <div id="ct-formula2" class="dnone">
-              <div class="row">
-                <div class="col-sm-12 col-md-6 mb-5">
-                  <div class="card">
-                    <img class="card-img-top" src="./assets/img/sushi-2853382.jpg" alt="Card image cap">
-                    <div class="card-body">
-                      <h5 class="card-title">Produit 1</h5>
-                      <p class="card-text">Petit commentaire sur le produit 1</p>
-                      <a href="#" class="btn btn-newprimary align-center-content">Go somewhere</a>
+              <div id="ct-formula2" class="dnone">
+                <div class="row">
+                  <div class="col-sm-12 col-md-6 mb-5">
+                    <div class="card">
+                      <img class="card-img-top" src="./assets/img/sushi-2853382.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">Produit 1</h5>
+                        <p class="card-text">Petit commentaire sur le produit 1</p>
+                        <a href="#" class="btn btn-newprimary align-center-content">Go somewhere</a>
+                      </div>
                     </div>
                   </div>
-                </div>
-                <div class="col-sm-12 col-md-6 mb-5">
-                  <div class="card">
-                    <img class="card-img-top" src="./assets/img/sushi-2853382.jpg" alt="Card image cap">
-                    <div class="card-body">
-                      <h5 class="card-title">Produit 1</h5>
-                      <p class="card-text">Petit commentaire sur le produit 1</p>
-                      <a href="#" class="btn btn-newprimary align-center-content">Go somewhere</a>
+                  <div class="col-sm-12 col-md-6 mb-5">
+                    <div class="card">
+                      <img class="card-img-top" src="./assets/img/sushi-2853382.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">Produit 1</h5>
+                        <p class="card-text">Petit commentaire sur le produit 1</p>
+                        <a href="#" class="btn btn-newprimary align-center-content">Go somewhere</a>
+                      </div>
                     </div>
                   </div>
-                </div>
-                <div class="col-sm-12 col-md-6 mb-5">
-                  <div class="card">
-                    <img class="card-img-top" src="./assets/img/sushi-2853382.jpg" alt="Card image cap">
-                    <div class="card-body">
-                      <h5 class="card-title">Produit 1</h5>
-                      <p class="card-text">Petit commentaire sur le produit 1</p>
-                      <a href="#" class="btn btn-newprimary align-center-content">Go somewhere</a>
+                  <div class="col-sm-12 col-md-6 mb-5">
+                    <div class="card">
+                      <img class="card-img-top" src="./assets/img/sushi-2853382.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">Produit 1</h5>
+                        <p class="card-text">Petit commentaire sur le produit 1</p>
+                        <a href="#" class="btn btn-newprimary align-center-content">Go somewhere</a>
+                      </div>
                     </div>
                   </div>
-                </div>
-                <div class="col-sm-12 col-md-6 mb-5">
-                  <div class="card">
-                    <img class="card-img-top" src="./assets/img/sushi-2853382.jpg" alt="Card image cap">
-                    <div class="card-body">
-                      <h5 class="card-title">Produit 1</h5>
-                      <p class="card-text">Petit commentaire sur le produit 1</p>
-                      <a href="#" class="btn btn-newprimary align-center-content">Go somewhere</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div id="ct-formula3" class="dnone">
-              <div class="row">
-                <div class="col-sm-12 col-md-6 mb-5">
-                  <div class="card">
-                    <img class="card-img-top" src="./assets/img/sushi-2853382.jpg" alt="Card image cap">
-                    <div class="card-body">
-                      <h5 class="card-title">Produit 1</h5>
-                      <p class="card-text">Petit commentaire sur le produit 1</p>
-                      <a href="#" class="btn btn-newprimary align-center-content">Go somewhere</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-sm-12 col-md-6 mb-5">
-                  <div class="card">
-                    <img class="card-img-top" src="./assets/img/sushi-2853382.jpg" alt="Card image cap">
-                    <div class="card-body">
-                      <h5 class="card-title">Produit 1</h5>
-                      <p class="card-text">Petit commentaire sur le produit 1</p>
-                      <a href="#" class="btn btn-newprimary align-center-content">Go somewhere</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-sm-12 col-md-6 mb-5">
-                  <div class="card">
-                    <img class="card-img-top" src="./assets/img/sushi-2853382.jpg" alt="Card image cap">
-                    <div class="card-body">
-                      <h5 class="card-title">Produit 1</h5>
-                      <p class="card-text">Petit commentaire sur le produit 1</p>
-                      <a href="#" class="btn btn-newprimary align-center-content">Go somewhere</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-sm-12 col-md-6 mb-5">
-                  <div class="card">
-                    <img class="card-img-top" src="./assets/img/sushi-2853382.jpg" alt="Card image cap">
-                    <div class="card-body">
-                      <h5 class="card-title">Produit 1</h5>
-                      <p class="card-text">Petit commentaire sur le produit 1</p>
-                      <a href="#" class="btn btn-newprimary align-center-content">Go somewhere</a>
+                  <div class="col-sm-12 col-md-6 mb-5">
+                    <div class="card">
+                      <img class="card-img-top" src="./assets/img/sushi-2853382.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">Produit 1</h5>
+                        <p class="card-text">Petit commentaire sur le produit 1</p>
+                        <a href="#" class="btn btn-newprimary align-center-content">Go somewhere</a>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
-            <div id="ct-formula4" class="dnone">
-              <div class="row">
-                <div class="col-sm-12 col-md-6 mb-5">
-                  <div class="card">
-                    <img class="card-img-top" src="./assets/img/sushi-2853382.jpg" alt="Card image cap">
-                    <div class="card-body">
-                      <h5 class="card-title">Produit 1</h5>
-                      <p class="card-text">Petit commentaire sur le produit 1</p>
-                      <a href="#" class="btn btn-newprimary align-center-content">Go somewhere</a>
+              <div id="ct-formula3" class="dnone">
+                <div class="row">
+                  <div class="col-sm-12 col-md-6 mb-5">
+                    <div class="card">
+                      <img class="card-img-top" src="./assets/img/sushi-2853382.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">Produit 1</h5>
+                        <p class="card-text">Petit commentaire sur le produit 1</p>
+                        <a href="#" class="btn btn-newprimary align-center-content">Go somewhere</a>
+                      </div>
                     </div>
                   </div>
-                </div>
-                <div class="col-sm-12 col-md-6 mb-5">
-                  <div class="card">
-                    <img class="card-img-top" src="./assets/img/sushi-2853382.jpg" alt="Card image cap">
-                    <div class="card-body">
-                      <h5 class="card-title">Produit 1</h5>
-                      <p class="card-text">Petit commentaire sur le produit 1</p>
-                      <a href="#" class="btn btn-newprimary align-center-content">Go somewhere</a>
+                  <div class="col-sm-12 col-md-6 mb-5">
+                    <div class="card">
+                      <img class="card-img-top" src="./assets/img/sushi-2853382.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">Produit 1</h5>
+                        <p class="card-text">Petit commentaire sur le produit 1</p>
+                        <a href="#" class="btn btn-newprimary align-center-content">Go somewhere</a>
+                      </div>
                     </div>
                   </div>
-                </div>
-                <div class="col-sm-12 col-md-6 mb-5">
-                  <div class="card">
-                    <img class="card-img-top" src="./assets/img/sushi-2853382.jpg" alt="Card image cap">
-                    <div class="card-body">
-                      <h5 class="card-title">Produit 1</h5>
-                      <p class="card-text">Petit commentaire sur le produit 1</p>
-                      <a href="#" class="btn btn-newprimary align-center-content">Go somewhere</a>
+                  <div class="col-sm-12 col-md-6 mb-5">
+                    <div class="card">
+                      <img class="card-img-top" src="./assets/img/sushi-2853382.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">Produit 1</h5>
+                        <p class="card-text">Petit commentaire sur le produit 1</p>
+                        <a href="#" class="btn btn-newprimary align-center-content">Go somewhere</a>
+                      </div>
                     </div>
                   </div>
-                </div>
-                <div class="col-sm-12 col-md-6 mb-5">
-                  <div class="card">
-                    <img class="card-img-top" src="./assets/img/sushi-2853382.jpg" alt="Card image cap">
-                    <div class="card-body">
-                      <h5 class="card-title">Produit 1</h5>
-                      <p class="card-text">Petit commentaire sur le produit 1</p>
-                      <a href="#" class="btn btn-newprimary align-center-content">Go somewhere</a>
+                  <div class="col-sm-12 col-md-6 mb-5">
+                    <div class="card">
+                      <img class="card-img-top" src="./assets/img/sushi-2853382.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">Produit 1</h5>
+                        <p class="card-text">Petit commentaire sur le produit 1</p>
+                        <a href="#" class="btn btn-newprimary align-center-content">Go somewhere</a>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
-            <div id="ct-formula5" class="dnone">
-              formulas5
-            </div>
-            <div id="ct-formula6" class="dnone">
-              formulas6
-            </div>
-            <div id="ct-smFormula1" class="dnone">
-              smFormulas1
-            </div>
-            <div id="ct-smFormula2" class="dnone">
-              smFormulas2
-            </div>
-            <div id="ct-smFormula3" class="dnone">
-              smFormulas3
-            </div>
-            <div id="ct-smFormula4" class="dnone">
-              smFormulas4
-            </div>
-            <div id="ct-smFormula5" class="dnone">
-              smFormulas5
-            </div>
-            <div id="ct-smFormula6" class="dnone">
-              smFormulas6
-            </div>
-            <div id="ct-eat1" class="dnone">
-              eat1
-            </div>
-            <div id="ct-eat2" class="dnone">
-              eat2
-            </div>
-            <div id="ct-eat3" class="dnone">
-              eat3
-            </div>
-            <div id="ct-eat4" class="dnone">
-              eat4
-            </div>
-            <div id="ct-eat5" class="dnone">
-              eat5
-            </div>
-            <div id="ct-eat6" class="dnone">
-              eat6
+              <div id="ct-formula4" class="dnone">
+                <div class="row">
+                  <div class="col-sm-12 col-md-6 mb-5">
+                    <div class="card">
+                      <img class="card-img-top" src="./assets/img/sushi-2853382.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">Produit 1</h5>
+                        <p class="card-text">Petit commentaire sur le produit 1</p>
+                        <a href="#" class="btn btn-newprimary align-center-content">Go somewhere</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-md-6 mb-5">
+                    <div class="card">
+                      <img class="card-img-top" src="./assets/img/sushi-2853382.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">Produit 1</h5>
+                        <p class="card-text">Petit commentaire sur le produit 1</p>
+                        <a href="#" class="btn btn-newprimary align-center-content">Go somewhere</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-md-6 mb-5">
+                    <div class="card">
+                      <img class="card-img-top" src="./assets/img/sushi-2853382.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">Produit 1</h5>
+                        <p class="card-text">Petit commentaire sur le produit 1</p>
+                        <a href="#" class="btn btn-newprimary align-center-content">Go somewhere</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-md-6 mb-5">
+                    <div class="card">
+                      <img class="card-img-top" src="./assets/img/sushi-2853382.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">Produit 1</h5>
+                        <p class="card-text">Petit commentaire sur le produit 1</p>
+                        <a href="#" class="btn btn-newprimary align-center-content">Go somewhere</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div id="ct-formula5" class="dnone">
+                formulas5
+              </div>
+              <div id="ct-formula6" class="dnone">
+                formulas6
+              </div>
+              <div id="ct-smFormula1" class="dnone">
+                smFormulas1
+              </div>
+              <div id="ct-smFormula2" class="dnone">
+                smFormulas2
+              </div>
+              <div id="ct-smFormula3" class="dnone">
+                smFormulas3
+              </div>
+              <div id="ct-smFormula4" class="dnone">
+                smFormulas4
+              </div>
+              <div id="ct-smFormula5" class="dnone">
+                smFormulas5
+              </div>
+              <div id="ct-smFormula6" class="dnone">
+                smFormulas6
+              </div>
+              <div id="ct-eat1" class="dnone">
+                eat1
+              </div>
+              <div id="ct-eat2" class="dnone">
+                eat2
+              </div>
+              <div id="ct-eat3" class="dnone">
+                eat3
+              </div>
+              <div id="ct-eat4" class="dnone">
+                eat4
+              </div>
+              <div id="ct-eat5" class="dnone">
+                eat5
+              </div>
+              <div id="ct-eat6" class="dnone">
+                eat6
+              </div>
             </div>
           </div>
         </div>
