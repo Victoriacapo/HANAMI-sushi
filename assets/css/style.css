@@ -8,6 +8,11 @@
   color:#fff;
 }
 
+.btn-newsecondary {
+  background-color:#f49e09;
+  color: #fff;
+}
+
 .btn-newprimary:hover {
   background-color:#f49e09;
   color:#fff;
@@ -49,4 +54,8 @@
 
 .card-header-hoverable:hover {
   background-color:#f49e09;
+}
+
+.modal {
+  transition:0.5s;
 }
