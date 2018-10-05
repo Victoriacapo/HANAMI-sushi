@@ -18,7 +18,7 @@ $(document).ready(function() {
       document.getElementById('smFormulasIcon').className = 'fas fa-caret-down'
       document.getElementById('eatIcon').className = 'fas fa-caret-down'
     }
-  });
+  })
   $smallFormulas.click(function() {
     if($ctSmallFormulas.css('display') === "block") {
       $ctSmallFormulas.slideUp(200)
@@ -31,7 +31,7 @@ $(document).ready(function() {
       document.getElementById('smFormulasIcon').className = 'fas fa-caret-up'
       document.getElementById('eatIcon').className = 'fas fa-caret-down'
     }
-  });
+  })
   $eat.click(function() {
     if($ctEat.css('display') === "block") {
       $ctEat.slideUp(200)
@@ -45,7 +45,7 @@ $(document).ready(function() {
       document.getElementById('smFormulasIcon').className = 'fas fa-caret-down'
       document.getElementById('eatIcon').className = 'fas fa-caret-up'
     }
-  });
+  })
 
   var $formula1 = $('#formula1')
   var $formula2 = $('#formula2')
@@ -789,7 +789,4 @@ $(document).ready(function() {
     $eat5.removeClass('active')
     $eat6.addClass('active')
   })
-
-
-
-});
+})
