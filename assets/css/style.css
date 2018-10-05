@@ -131,17 +131,16 @@
   right: 100px;
 }
 /*footer*/
-.col_white_amrc { color:#FFF;}
+.col_white_amrc {
+  color:#FFF;
+}
+
 footer {
-	width:100%; background-color:#263238; min-height:15.625rem; padding:0.625rem 0 1.5625rem 0;
+	width:100%; background-color:#263238; min-height:15.625rem; padding:0 0 1.5625rem 0; position: absolute;
 }
 
 .pt2 {
 	padding-top:2.5rem ; margin-bottom:1.25rem;
-}
-
-.move {
-	padding-left: 6.5rem;
 }
 
 footer p {
@@ -156,8 +155,16 @@ iframe {
 	padding:1rem;
 }
 
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
 .footer_ul_amrc {
-	margin:0 6rem 0 0; list-style-type:none; font-size:0.875rem;
+	 list-style-type:none; font-size:0.875rem;
 }
 
 .footer_ul_amrc li a {
@@ -165,19 +172,11 @@ iframe {
 }
 
 .footer_ul_amrc li a:hover {
-	color:#fff; text-decoration:none;
+	color:#FFF; text-decoration:none;
 }
 
-.footer_ul2_amrc {
-	padding:0 6rem 0 0; list-style-type:none; font-size:0.875rem;
-}
-
-.footer_ul2_amrc li a {
-	color:#CCC;
-}
-
-.footer_ul2_amrc li a:hover {
-	color:#fff; text-decoration:none;
+.footer_livraison {
+  color: #FFF;
 }
 
 .bottom_border {
@@ -217,6 +216,7 @@ iframe {
 	width:1.25rem; height:1.25rem; text-align:center;
 }
 
+<<<<<<< HEAD
 .carousel-text-background {
   margin: 30px;
   background-color: #000;
@@ -227,18 +227,54 @@ iframe {
 
 .white-text {
   color: #fff;
+=======
+.parallax {
+  /* The image used */
+  background: url(../img/great-torii-of-miyajima-1425480_960_720.jpg) no-repeat center fixed;
+
+  /* Set a specific height */
+  min-height: 19rem;
+
+  /* Create the parallax scrolling effect */
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.parallax2 {
+/* The image used */
+background: url(../img/fisherman-2739115_960_720.jpg) no-repeat center fixed;
+
+/* Set a specific height */
+min-height: 19rem;
+
+/* Create the parallax scrolling effect */
+-webkit-background-size: cover;
+background-size: cover;
+}
+
+.parallax3 {
+  /* The image used */
+  background: url(../img/chef-1209161_960_720.jpg) no-repeat center fixed;
+
+  /* Set a specific height */
+  min-height: 19rem;
+
+  /* Create the parallax scrolling effect */
+  -webkit-background-size: cover;
+  background-size: cover;
+>>>>>>> Sasuke
 }
 
 
 .Garantie {
   transition:0.5s;
-	height: 220px;
-	width: 220px;
+	height: 11rem;
+	width: 11rem;
 	border-radius: 50%;
 	display: inline-block;
 	vertical-align: middle;
-	line-height: 220px;
-	margin-right: 25px;
+	line-height: 11rem;
+	margin-right: 2.5rem;
 	background-color: rgba(255,255,255,0.85);
   border: solid black;
 }
@@ -248,21 +284,20 @@ iframe {
 .Garant{
 	position: relative;
 	width: 100%;
-	background-color: #3e3e3e;
-	background-position-x: 65%;
+	background-color: #f4ebeb;
+	background-position-x: 50%;
 	background-position-y: center;
 	background-repeat: no-repeat;
 	background-attachment: scroll;
 	top: 50%;
 	height: auto;
 	text-align: center;
-  padding-top: 20px;
 }
 #text{
   color: black;
   display: inline-block;
   font-family: 'Playfair Display SC', serif, Arial, sans-serif;
-	font-size: 24px;
+	font-size: 1.1rem;
 	background-attachment: scroll;
 	background-size: contain;
 	background-origin: padding-box;
