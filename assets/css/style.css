@@ -59,3 +59,69 @@
 .modal {
   transition:0.5s;
 }
+
+.tra {
+  transition: 0.5s;
+}
+
+.tra:hover {
+  transition: 0.5s;
+  background-color: #f49e09;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.tra2 {
+  transition: 0.5s;
+}
+
+.tra2:hover {
+  transition: 0.5s;
+  background-color: #f49e09;
+  color: #fff;
+  border-radius: 10px;
+}
+
+#drop {
+  transition:0.3s;
+}
+
+#drop:hover, #drop:focus {
+  background-color:#f49e09;
+  color:#fff;
+}
+
+.backnav {
+  background-color: #841e2b;
+}
+
+.img {
+  width: 2rem;
+  height: auto;
+}
+
+.nav-item {
+  padding-left:20px;
+  padding-right:20px;
+}
+
+.dnone {
+  display: none;
+}
+
+@media all and (min-width:1070px) {
+  .links {
+    display:block;
+  }
+}
+
+#linktripadvisor {
+  position: absolute;
+  right: 30px;
+  vertical-align: middle;
+}
+
+#linkfacebook {
+  position: absolute;
+  right: 100px;
+}

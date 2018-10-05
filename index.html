@@ -9,6 +9,36 @@
   <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
 </head>
 <body>
+    <nav class="navbar navbar-expand-lg navbar-dark backnav">
+      <h1 class="navbar-brand">Hanami Sushi</h1>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarColor01">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link tra" href="#">Acceuil<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active dropdown tra">
+            <a id="dropDown" class="nav-link" href="#" id="navbarDropdownMenuLink">Carte <i id="dropDownIcon" class="fas fa-caret-down"></i></a>
+            <div id="contentDrop" class="dropdown-menu backnav" aria-labelledby="navbarDropdownMenuLink">
+              <a id="drop" class="dropdown-item" href="#">Formule</a>
+              <a id="drop" class="dropdown-item" href="#">Mini formule</a>
+              <a id="drop" class="dropdown-item" href="#">À la carte</a>
+            </div>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link tra" href="#">Contact<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="links nav-item dnone">
+            <a id="linktripadvisor" class="nav-link" href="https://www.tripadvisor.fr/Restaurant_Review-g187190-d6153511-Reviews-Hanami_Sushi_Bar-Le_Havre_Seine_Maritime_Haute_Normandie_Normandy.html" target="_blank"><img class="img" src="assets/img/tripadvisor-logotype.svg" /></a>
+          </li>
+          <li class="links nav-item dnone">
+            <a id="linkfacebook" class="nav-link" href="https://www.facebook.com/pages/Hanami-Sushi/1485077131732711" target="_blank"><img class="img" src="assets/img/facebook.svg" /></a>
+          </li>
+        </div>
+      </div>
+    </nav>
   <div id="modalFormula" class="modal fade">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
@@ -302,6 +332,7 @@
       </div>
     </div>
   </div>
+
   <script src="./assets/import/jquery/jquery-3.1.1.min.js"></script>
   <script src="./assets/import/bootstrap/js/popper.min.js"></script>
   <script src="./assets/import/bootstrap/js/bootstrap.min.js"></script>
