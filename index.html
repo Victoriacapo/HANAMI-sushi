@@ -75,11 +75,34 @@
             </button>
           </div>
           <div class="modal-body">
-            <p></p>
+            <form>
+              <fieldset>
+                <legend>Commande</legend>
+                <div class="form-group">
+                  <label for="sel1">Salade de choux OU soupe mizo au choix:</label>
+                  <select class="form-control" id="sel1">
+                    <option selected>Salade de choux</option>
+                    <option>Soupe mizo</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="usr">Nom:</label>
+                  <input type="text" class="form-control" id="usr">
+                </div>
+                <div class="form-group">
+                  <label for="usr">Numéro de téléphone:</label>
+                  <input type="text" class="form-control" id="usr">
+                </div>
+                <div class="form-group">
+                  <label for="pwd">Heure à laquelle récupérer la commande:</label>
+                  <input type="number" class="form-control" id="pwd">
+                </div>
+              </fieldset>
+            </form>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-newsecondary">Annuler</button>
-            <button type="button" class="btn btn-newprimary" data-dismiss="modal">Commander</button>
+            <button type="button" class="btn btn-newsecondary" data-dismiss="modal">Annuler</button>
+            <button type="button" class="btn btn-newprimary">Ajouter au panier</button>
           </div>
         </div>
       </div>
