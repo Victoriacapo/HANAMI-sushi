@@ -271,3 +271,11 @@ iframe {
 	line-height: 1.2em;
   text-align: center;
 }
+
+#fontsizetitle {
+  font-size: 1.5rem;
+}
+
+.fontsi {
+  font-size: 0.8rem;
+}

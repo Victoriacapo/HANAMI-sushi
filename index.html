@@ -12,18 +12,18 @@
   <link href="https://fonts.googleapis.com/css?family=Lobster+Two:400i|Oswald:700|Playfair+Display+SC" rel="stylesheet" />
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark backnav">
-    <h1 class="navbar-brand">Hanami Sushi</h1>
+  <nav class="navbar navbar-expand-lg fixed-top navbar-dark backnav">
+    <h1 id="fontsizetitle" class="navbar-brand">Hanami Sushi Bar</h1>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarColor01">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link tra" href="#">Acceuil<span class="sr-only">(current)</span></a>
+          <a class="nav-link tra fontsi" href="#home">Acceuil<span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item active dropdown tra">
-          <a id="dropDown" class="nav-link" href="#" id="navbarDropdownMenuLink">Carte <i id="dropDownIcon" class="fas fa-caret-down"></i></a>
+          <a id="dropDown" class="nav-link fontsi" href="#card" id="navbarDropdownMenuLink">Carte <i id="dropDownIcon" class="fas fa-caret-down"></i></a>
           <div id="contentDrop" class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
             <a id="drop" class="dropdown-item" href="#">Formule</a>
             <a id="drop" class="dropdown-item" href="#">Mini formule</a>
@@ -31,7 +31,7 @@
           </div>
         </li>
         <li class="nav-item active">
-          <a class="nav-link tra" href="#">Contact<span class="sr-only">(current)</span></a>
+          <a class="nav-link tra fontsi" href="#ft">Contact<span class="sr-only">(current)</span></a>
         </li>
         <li class="links nav-item dnone">
           <a id="linktripadvisor" class="nav-link" href="https://www.tripadvisor.fr/Restaurant_Review-g187190-d6153511-Reviews-Hanami_Sushi_Bar-Le_Havre_Seine_Maritime_Haute_Normandie_Normandy.html" target="_blank"><img class="img" src="assets/img/tripadvisor-logotype.svg" /></a>
@@ -45,7 +45,7 @@
 
   <!--**************************************************** caroussel ***************************************************************-->
 
-
+<div id="home">
   <div id="carousel1" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
       <li data-target="#carousel1" data-slide-to="0" class="active"></li>
@@ -95,7 +95,7 @@
       </a>
     </div>
   </div>
-
+</div>
   <!-- ****************************************************partie puce******************************************************************** -->
   <div class="container-fluid Garant">
 
@@ -145,6 +145,7 @@
       </div>
     </div>
   </div>
+  <div id="card">
   <div class="container mt-5">
     <div class="row">
       <div class="col-sm-12 col-md-4">
@@ -419,8 +420,10 @@
       </div>
     </div>
   </div>
+</div>
 
   <footer class="footer">
+    <div id="ft">
     <div class="container bottom_border">
       <div class="row">
         <div class="col-sm-12 col-md-4 move">
@@ -444,6 +447,7 @@
         </div>
       </div>
     </div>
+  </div>
     <div class="container">
       <ul class="foote_bottom_ul_amrc">
         <li><a>lundi 11:00 - 20:30</a></li>
