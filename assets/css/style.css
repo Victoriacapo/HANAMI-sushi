@@ -1,0 +1,60 @@
+#carousel1 p{
+  color: black;
+  font-family: 'Lobster Two', cursive, sans-serif;
+  font-size: 40px;
+  text-shadow: 3px 3px 6px white;
+}
+#carousel1 span{
+  font-weight: bolder;
+  color: green;
+}
+#carousel1 h5{
+  color: black;
+  font-family: 'Oswald', Arial, sans-serif;
+  font-size: 50px;
+  text-decoration: underline;
+}
+.SAVOIR h5{
+  color: black;
+}
+
+.Garantie {
+	height: 220px;
+	width: 220px;
+	border-radius: 50%;
+	display: inline-block;
+	vertical-align: middle;
+	line-height: 220px;
+	margin-right: 25px;
+	background-color: rgba(255,255,255,0.85);
+  margin-top: 100px;
+  border: solid black;
+}
+.Garantie:hover{
+  background-color: #f49e09;
+}
+.Garant{
+	position: relative;
+	width: 100%;
+	background-color: #3e3e3e;
+	background-position-x: 65%;
+	background-position-y: center;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	top: 50%;
+	height: auto;
+	text-align: center;
+  padding-top: 20px;
+}
+#text{
+  color: black;
+  display: inline-block;
+  font-family: 'Playfair Display SC', serif, Arial, sans-serif;
+	font-size: 24px;
+	background-attachment: scroll;
+	background-size: contain;
+	background-origin: padding-box;
+	vertical-align: middle;
+	line-height: 1.2em;
+  text-align: center;
+}
