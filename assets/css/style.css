@@ -210,35 +210,52 @@ iframe {
 .social_footer_ul li i {
 	width:1.25rem; height:1.25rem; text-align:center;
 }
-#carousel1 p{
-  color: black;
-  font-family: 'Lobster Two', cursive, sans-serif;
-  font-size: 40px;
-  text-shadow: 3px 3px 6px white;
+
+.parallax {
+  /* The image used */
+  background: url(../img/great-torii-of-miyajima-1425480_960_720.jpg) no-repeat center fixed;
+
+  /* Set a specific height */
+  min-height: 19rem;
+
+  /* Create the parallax scrolling effect */
+  -webkit-background-size: cover;
+  background-size: cover;
 }
-#carousel1 span{
-  font-weight: bolder;
-  color: green;
+
+.parallax2 {
+/* The image used */
+background: url(../img/fisherman-2739115_960_720.jpg) no-repeat center fixed;
+
+/* Set a specific height */
+min-height: 19rem;
+
+/* Create the parallax scrolling effect */
+-webkit-background-size: cover;
+background-size: cover;
 }
-#carousel1 h5{
-  color: black;
-  font-family: 'Oswald', Arial, sans-serif;
-  font-size: 50px;
-  text-decoration: underline;
-}
-.SAVOIR h5{
-  color: black;
+
+.parallax3 {
+  /* The image used */
+  background: url(../img/chef-1209161_960_720.jpg) no-repeat center fixed;
+
+  /* Set a specific height */
+  min-height: 19rem;
+
+  /* Create the parallax scrolling effect */
+  -webkit-background-size: cover;
+  background-size: cover;
 }
 
 .Garantie {
   transition:0.5s;
-	height: 220px;
-	width: 220px;
+	height: 11rem;
+	width: 11rem;
 	border-radius: 50%;
 	display: inline-block;
 	vertical-align: middle;
-	line-height: 220px;
-	margin-right: 25px;
+	line-height: 11rem;
+	margin-right: 2.5rem;
 	background-color: rgba(255,255,255,0.85);
   border: solid black;
 }
@@ -248,21 +265,20 @@ iframe {
 .Garant{
 	position: relative;
 	width: 100%;
-	background-color: #3e3e3e;
-	background-position-x: 65%;
+	background-color: #f4ebeb;
+	background-position-x: 50%;
 	background-position-y: center;
 	background-repeat: no-repeat;
 	background-attachment: scroll;
 	top: 50%;
 	height: auto;
 	text-align: center;
-  padding-top: 20px;
 }
 #text{
   color: black;
   display: inline-block;
   font-family: 'Playfair Display SC', serif, Arial, sans-serif;
-	font-size: 24px;
+	font-size: 1.1rem;
 	background-attachment: scroll;
 	background-size: contain;
 	background-origin: padding-box;
